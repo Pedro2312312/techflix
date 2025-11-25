@@ -1,7 +1,86 @@
+
 .vitrinecontainer {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200px;  
     margin: 40px auto;
     padding: 0 20px;
     text-align: center;
+    background-color: #000;
   }
+
+  .titulo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: #429fdd;
+  }
+  
+  .cardfilme {
+    background: #767676;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(30, 30, 30, 0.4);
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .cardfilme:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.25);
+  }
+
+  .cardfilme img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .info {
+    padding: 15px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #ffdd57;
+  }
+
+  .info p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #b6b6b6;
+  }
+
+  .gridfilmes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 10px;
+  }
+
+  @media (max-width: 480px) {
+    .titulo {
+      font-size: 1.5rem;
+    }
+  
+    .cardfilme img {
+      height: 260px;
+    }
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  

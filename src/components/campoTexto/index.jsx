@@ -1,8 +1,8 @@
+import './index.css'
 const CampoTexto = (props) => {
     const aoDigitar = (evento) => {
         props.aoAlterar(evento.target.value)
     }
-
     return(
         <div className="campoTexto">
             <label>{props.rotulo}</label>

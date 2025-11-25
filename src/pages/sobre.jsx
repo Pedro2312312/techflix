@@ -3,17 +3,31 @@ import christian from '../images/Christian.jpg'
 import luciano from '../images/Luciano.jpg'
 import '../App.css'
 import { Link } from 'react-router-dom'
+
 export default function Sobre () {
     return (
-        <div>
+        <div className="sobre-container">
             <Link to={"/vitrine"} className='voltarvitrine'>Voltar para vitrine</Link>
             <h1>Sobre a Techflix</h1>
-            <p>A Techflix foi um projeto onde eu aprendi a usar o js junto ao react e tive muitos avanços pessoais e intelectuais em programação, foi inspirado em plataformas de streaming como netflix e disneyplus somados a plataforma da tech4me. - Théo</p>
-            <img src={eu} alt="Théo" />
-            <p>A Techflix é muito bacana, tem o apoio do Bruno Henrique e do goleiro Bruno. - Christian</p>
-            <img src={christian} alt="Christian" />
-            <p>A Techflix virou minha plataforma de streaming favorita e ainda me ajudou a entender mais sobre programação. - Luciano</p>
-            <img src={luciano} alt="Luciano" />
+
+            <div className="cards-sobre">
+
+                <div className="card-sobre">
+                    <img className="img-theo" src={eu} alt="Théo" />
+                    <p>Techflix foi um projeto onde aprendi muito sobre js e react. - Théo</p>
+                </div>
+
+                <div className="card-sobre">
+                    <img src={christian} alt="Christian" />
+                    <p>A Techflix é muito bacana, tem o apoio do Bruno Henrique. - Christian</p>
+                </div>
+
+                <div className="card-sobre">
+                    <img src={luciano} alt="Luciano" />
+                    <p>A Techflix virou minha plataforma favorita. - Luciano</p>
+                </div>
+
+            </div>
         </div>
     )
 }

@@ -11,5 +11,19 @@
     font-size: 16px;
     font-weight: 500;
   }
+
+  .campoTexto input {
+    padding: 14px;
+    background-color: #888888;    
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s;
+  }
   
-  
+  .campoTexto input:focus {
+    background-color: #707070;
+    border-color: #2994c9;        
+  }

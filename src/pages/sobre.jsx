@@ -1,7 +1,7 @@
 import eu from '../images/eu.jpg'
 import christian from '../images/Christian.jpg'
 import luciano from '../images/Luciano.jpg'
-
+import '../App.css'
 export default function Sobre () {
     return (
         <div>

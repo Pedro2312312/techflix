@@ -1,12 +1,14 @@
-export default function Card({ imagem, nome, valor }) {
+import { Link } from "react-router-dom";
+
+export default function Card({ id, imagem, nome, valor }) {
   return (
-    <div className="card">
+    <Link to={`/filme/${id}`} className="cardfilme">
       <img src={imagem} alt={nome} />
 
       <div className="info">
         <h2>{nome}</h2>
         <p>{valor}</p>
       </div>
-    </div>
+    </Link>
   );
 }

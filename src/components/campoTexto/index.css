@@ -1,0 +1,15 @@
+.campoTexto {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 18px;
+    width: 100%;
+  }
+  
+  .campoTexto label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  

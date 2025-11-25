@@ -16,10 +16,10 @@ export default function Detalhes() {
   return (
       <div className="detalhescontainer">
         <Link to={'/vitrine'} className="btnvoltarvitrine">Voltar para vitrine</Link>
-      <img src={filme.imagem} alt={filme.nome} />
-      <h1>{filme.nome}</h1>
-<button onClick={() => alert("Filme alugado com sucesso!")}>{filme.valor} R$</button>
-      <p>{filme.descricao}</p>
+      <img src={filme.imagem} alt={filme.nome} className="imgDetalhes" />
+      <h1 className="h1Detalhes">{filme.nome}</h1>
+<button onClick={() => alert("Filme alugado com sucesso!")} className="btnValor">{filme.valor} R$</button>
+      <p className="pDetalhes">{filme.descricao}</p>
     </div>
   );
 }

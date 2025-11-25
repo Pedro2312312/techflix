@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export default function Sobre () {
     return (
         <div className="sobre-container">
-            <Link to={"/vitrine"} className='voltarvitrine'>Voltar para vitrine</Link>
+            <Link to={"/vitrine"} className='btnvoltarvitrine'>Voltar para vitrine</Link>
             <h1>Sobre a Techflix</h1>
 
             <div className="cards-sobre">

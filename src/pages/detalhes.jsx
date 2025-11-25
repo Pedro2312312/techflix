@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import "../App.css";
 export default function Detalhes() {
   const { id } = useParams();
   const [filme, setFilme] = useState(null);

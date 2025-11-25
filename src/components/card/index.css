@@ -1,7 +1,7 @@
 .cardfilme {
     display: flex;
     flex-direction: column;
-    background: #000000;           
+    background: #b2b1b1;           
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;

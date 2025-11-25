@@ -20,6 +20,7 @@ export default function Vitrine() {
       <div className="gridfilmes">
         {filmes.map(filme => (
           <Card
+            key={filme.id}
             id={filme.id}
             imagem={filme.imagem}
             nome={filme.nome}

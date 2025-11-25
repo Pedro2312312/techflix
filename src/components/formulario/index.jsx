@@ -8,7 +8,7 @@ const Formulario = () => {
     const aoSalvar = (evento) => {
         evento.preventDefault()
         setNome('')
-        setCpf('')
+        setEmail('')
     }
 
     return(

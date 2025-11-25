@@ -71,9 +71,15 @@
     }
   }
 
- .containerPaginaInicial {
-  color: rgb(rgb(101, 232, 255), rgb(98, 234, 255), rgb(87, 192, 230));
- }
+  .containerPaginaInicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;             
+    padding: 20px;
+    background: black;
+    color: white;
+  }
 
  h1{
   color: #68bcf4;

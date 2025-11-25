@@ -1,0 +1,77 @@
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  
+  .formulario form {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(0, 0, 0, 0.85); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .formulario button {
+    margin-top: 20px;
+    background-color: #2a8cd7;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .formulario button:hover {
+    background-color: #6b9bce00;
+  }
+  
+  
+  .formulario button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+  }
+  
+  
+  .campoTexto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .campoTexto label {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  
+  .campoTexto input {
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s ease;
+  }
+  
+  .campoTexto input:focus {
+    border-color: #2ab9e1ec;
+    background-color: #444;
+  }
+  
+  .campoTexto input::placeholder {
+    color: #aaa;
+  }
+  

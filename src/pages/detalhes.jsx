@@ -18,7 +18,7 @@ export default function Detalhes() {
         <Link to={'/vitrine'} className="btnvoltarvitrine">Voltar para vitrine</Link>
       <img src={filme.imagem} alt={filme.nome} />
       <h1>{filme.nome}</h1>
-<button onClick={() => alert("Filme alugado com sucesso!")}>{filme.valor}</button>
+<button onClick={() => alert("Filme alugado com sucesso!")}>{filme.valor} R$</button>
       <p>{filme.descricao}</p>
     </div>
   );

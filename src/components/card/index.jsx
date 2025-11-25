@@ -7,7 +7,7 @@ export default function Card({ id, imagem, nome, valor }) {
 
       <div className="info">
         <h2>{nome}</h2>
-        <p>{valor}</p>
+        <p>{valor}R$</p>
       </div>
     </Link>
   );

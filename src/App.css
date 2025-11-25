@@ -113,7 +113,76 @@
   }
 
 
+  .sobre-container {
+    padding: 20px;
+    color: white;
+}
+
+.cards-sobre {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card-sobre {
+    width: 260px;
+    border: 3px solid #00bfff;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-sobre img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-sobre p {
+    margin-top: 10px;
+    color: #00bfff;
+}
   
+  .img-theo {
+  height: 380px;   
+  object-fit: cover;
+  object-position: top; 
+}
+
+.sobre-container {
+  padding: 20px;
+  color: white;
+  text-align: center; 
+}
+
+.voltarvitrine {
+  display: block;
+  margin: 0 auto;      
+  margin-bottom: 20px; 
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sobre-container h1 {
+  text-align: center;  
+  color: #00bfff;
+}
+
+.card-sobre {
+    width: 260px;
+    border: 3px solid #00bfff;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease; 
+}
+
+.card-sobre:hover {
+    transform: scale(1.05); 
+}
 
 
   

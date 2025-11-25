@@ -12,7 +12,7 @@ export default function Sobre () {
             <img src={eu} alt="Théo" />
             <p>A Techflix é muito bacana, tem o apoio do Bruno Henrique e do goleiro Bruno. - Christian</p>
             <img src={christian} alt="Christian" />
-            <p>TechFlix é um projeto de programação que criei e que acabou ajudando muito minha vida.É onde coloquei em prática tudo o que aprendi e vejo meu progresso ganhando forma.Cada parte do projeto mostra o quanto posso evoluir no mundo da programação. -Chatgpt</p>
+            <p>A Techflix virou minha plataforma de streaming favorita e ainda me ajudou a entender mais sobre programação. - Luciano</p>
             <img src={luciano} alt="Luciano" />
         </div>
     )

@@ -206,6 +206,12 @@
   line-height: 1.5;
 } 
 
+.detalhescontainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  object-fit: cover;
+}
 
 
   

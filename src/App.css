@@ -210,7 +210,9 @@
 .detalhescontainer img {
   grid-column: 2;
   grid-row: 1 / 4;
-  max-width: 100%;
+  max-width: 1200px;
+  display: flex;
+  margin-left: 1000px;
   height: auto;
   border: 3px solid #29a3ff;
   border-radius: 6px;
@@ -223,6 +225,7 @@
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 20px;
+  margin-top: -500px
 }
 
 .detalhescontainer p {
